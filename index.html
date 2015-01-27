@@ -8,9 +8,34 @@
     <header>
       <h1>Stor.</h1>
     </header>
+
     <section>
 
     </section>
+
+    <div class="formContainer">
+      <form action="">
+        <h4>  <label for="productName">Product Name</label>
+          <input type="text" name="productName" placeholder="Product Name">
+        </h4>
+        <p>
+          <label for="productImage">Product Image URL</label>
+          <input type="text" name="productImage" placeholder="Product Image">
+        </p>
+        <p>
+          <label for="productDescription">Product Description</label>
+          <textarea cols="30" rows="10" name="productDescription"></textarea>
+        </p>
+        <p>
+          <label for="productPrice">Product Price</label>
+          <input type="text" name="productPrice" placeholder="Product Price">
+        </p>
+        <p>
+          <button type="submit">Add Product</button>
+        </p>
+      </form>
+    </div>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="data.js"></script>

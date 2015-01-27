@@ -33,3 +33,6 @@ section {
     border: 1px solid floralwhite; }
   .product p {
     font-size: 14px; }
+  .product .price {
+    text-align: center;
+    font-weight: bold; }

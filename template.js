@@ -1,9 +1,12 @@
 var templates = {};
 
 templates.productBox = [
-  "<div class='product'>",
-  "<h3><%= name %></h3>",
-  "<img src='<%= img %>'></img>",
-  "<p><%= description %></p>",
+  "<div data-index='<%= idx %>' class='product'>",
+  "<h3 class='name'><%= name %></h3>",
+  "<img class='image' src='<%= img %>'></img>",
+  "<p class='description'><%= description %></p>",
+  "<p class='price'><%= price %></p>",
+  "<p><button class='deleteProduct'>Delete Product</button></p>",
+  "<p><button class='updateProduct'>Update Product</button></p>",
   "</div>"
 ].join("");
