@@ -7,6 +7,6 @@ templates.productBox = [
   "<p class='description'><%= description %></p>",
   "<p class='price'><%= price %></p>",
   "<p><button class='deleteProduct'>Delete Product</button></p>",
-  "<p><button class='updateProduct'>Update Product</button></p>",
+  "<button class='updateProduct'>Update Product</button>",
   "</div>"
 ].join("");

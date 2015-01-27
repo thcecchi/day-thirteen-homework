@@ -75,7 +75,7 @@ var productPage =
       //
       console.log(products[productIndex]);
       //
-      $(".product input").replaceWith($(this).closest('p').text(newValue));
+      $(".product input").replaceWith($('<p></p>').text(newValue));
     },
 
 
