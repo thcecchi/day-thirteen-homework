@@ -19,6 +19,8 @@ var productPage =
       });
 
       $('p').on('dblclick', this, productPage.updateProduct);
+      $('img').on('dblclick', this, productPage.updateProduct);
+      $('h3').on('dblclick', this, productPage.updateProduct);
 
       $('section').on('click', '.updateProduct', productPage.addUpdateProduct);
     },
